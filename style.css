@@ -9,15 +9,20 @@ html {
     position: relative;
     width: 100%;
 }
-
+ body {
+     width: 100%;
+ }
 
 h2 {
     color: #0475ba ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
 }
 img {
-    width: 120px;
+
+    width: 150px;
     clip-path: ellipse(50% 50%);
-    
+   
 }
 
 
@@ -25,26 +30,68 @@ img {
      background-color: #0475ba;
      color: white;
      font-family: 'Poppins', sans-serif;
+     font-size: 80%;
+     padding: 10px;
 }
 #center {
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 40px;
+    
 }
+
 #profil{
     background-color: #0475ba;
     color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80%;
+    padding: 40px;
 }
 #experiences {
     text-align: justify ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80%;
+    padding: 40px;
+    line-height: 3em;
+    right: 50%;
+    left: 50%;
 }
 #formations {
     background-color: #0475ba;
     color: white;
     text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80%;
+    padding: 40px;
 }
 #passion {
     text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80%;
+    padding: 40px;
+  
 }
 #reseaux {
     background-color: #0475ba;
     color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80%;
+    padding: 40px;
+}
+
+h3, h5 {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+h4, h6 {
+    font-size: 1.2em;
+    text-align: center;
+    color:#0475ba ;
+}
+
+.colonne1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
