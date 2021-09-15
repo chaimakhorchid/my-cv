@@ -1,0 +1,50 @@
+html {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    flex-grow: 1;
+    align-items: center;
+    margin-right: 17px;
+    margin-bottom: 0px;
+    position: relative;
+    width: 100%;
+}
+
+
+h2 {
+    color: #0475ba ;
+}
+img {
+    width: 120px;
+    clip-path: ellipse(50% 50%);
+    
+}
+
+
+#accueil {
+     background-color: #0475ba;
+     color: white;
+     font-family: 'Poppins', sans-serif;
+}
+#center {
+    text-align: center;
+}
+#profil{
+    background-color: #0475ba;
+    color: white;
+}
+#experiences {
+    text-align: justify ;
+}
+#formations {
+    background-color: #0475ba;
+    color: white;
+    text-align: justify;
+}
+#passion {
+    text-align: justify;
+}
+#reseaux {
+    background-color: #0475ba;
+    color: white;
+}
